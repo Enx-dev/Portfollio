@@ -8,7 +8,7 @@
     @apply text-accentText font-bold font-mono text-xl lg:text-4xl;
   }
   div {
-    @apply space-x-16 font-semibold text-accentText/50;
+    @apply space-x-4 lg:space-x-16 font-semibold text-accentText/50;
     * {
       @apply tracking-wider cursor-pointer;
     }

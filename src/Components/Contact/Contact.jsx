@@ -3,6 +3,8 @@ import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
 import ContactIcon from "../../assets/images/undraw_personal_text_re_vqj3.svg";
 import { Element } from "react-scroll";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 const Contact = () => {
   const form = useRef();
   const { register, handleSubmit, reset } = useForm();
@@ -22,10 +24,12 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          toast.success("message sent");
           reset();
         },
         (error) => {
           console.log(error.text);
+          toast.error("an error has occured");
         }
       );
   };
@@ -66,6 +70,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+      <ToastContainer />
     </Element>
   );
 };

@@ -50,7 +50,7 @@ input {
 }
 @layer components {
   .App {
-    @apply min-h-screen overflow-auto bg-sectionImg bg-contain md:bg-cover scroll-smooth;
+    @apply min-h-screen overflow-auto bg-main md:bg-sectionImg bg-contain md:bg-cover scroll-smooth;
   }
   .section {
     @apply bg-cover;
