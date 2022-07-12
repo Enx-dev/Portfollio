@@ -1,0 +1,6 @@
+.Footer {
+  @apply bg-accentPrimary py-5 px-20 space-x-8 flex justify-between lg:justify-around;
+  * {
+    @apply cursor-pointer;
+  }
+}

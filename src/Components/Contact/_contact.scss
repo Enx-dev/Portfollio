@@ -1,0 +1,34 @@
+.ContactSection {
+  @apply min-h-screen flex flex-col items-center space-y-12 lg:space-y-20  text-accentText py-20 px-5 md:px-10 lg:px-20  w-full;
+  &__main {
+    @apply lg:space-y-0 lg:items-center lg:flex gap-16;
+  }
+  &__top {
+    @apply w-full max-w-md lg:max-w-4xl;
+  }
+  &__bottom {
+    @apply w-full;
+  }
+  &__title {
+    @apply text-5xl text-center font-bold;
+  }
+  &__form {
+    @apply flex flex-col w-full items-start space-y-4 max-w-md;
+    fieldset {
+      @apply w-full space-y-1;
+      legend {
+        @apply uppercase font-semibold tracking-wider;
+      }
+      input,
+      textarea {
+        @apply w-full caret-accentText py-2 px-2 focus:outline focus:outline-accentText rounded-md bg-accentPrimary;
+      }
+      textarea {
+        @apply min-h-[150px] outline-none;
+      }
+    }
+    button {
+      @apply bg-accentText px-4 py-2 min-w-[150px] text-accentPrimary rounded-md text-xl uppercase tracking-wider  hover:scale-105 transition-all duration-500 ease-in-out;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.Navbar {
+  @apply bg-accentPrimary/5 h-14  w-full flex px-5 lg:px-20 items-center justify-between;
+  box-shadow: 0 2px 20px 0 rgba(95, 15, 160, 0.247);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 10px;
+  h1 {
+    @apply text-accentText font-bold font-mono text-xl lg:text-4xl;
+  }
+  div {
+    @apply space-x-16 font-semibold text-accentText/50;
+    * {
+      @apply tracking-wider cursor-pointer;
+    }
+  }
+}

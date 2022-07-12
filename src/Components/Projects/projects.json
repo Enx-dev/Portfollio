@@ -1,0 +1,44 @@
+[
+    {
+        "id":0,
+        "name":"Interactive Comment section",
+        "description":"Interactive comment section with full CRUD functionality using ReactJs, Redux-toolkit,TailwindCss",
+        "liveLink": "https://comments-gilt.vercel.app/",
+        "githubLink": "https://github.com/Enx-dev/Comments"
+    },
+    {
+        "id":1,
+        "name":"Easy Banking landing page",
+        "description":"Fully responsive landing page with smooth animations built with ReactJs,Gsap and TailwindCss",
+        "liveLink": "https://easy-bank-khaki.vercel.app/",
+        "githubLink": "https://github.com/Enx-dev/EasyBank"
+    },
+    {
+        "id":2,
+        "name":"Todo app",
+        "description":"Todo app with Create, Read, Update and Delete futionality built on ReactJs,Redux,Framer Motion and TailwindCss",
+        "liveLink": "https://simple-todo-app-three.vercel.app/",
+        "githubLink": "https://github.com/Enx-dev/simpleTodoApp"
+    },
+    {
+        "id":3,
+        "name":"Space Website",
+        "description":"Multi-page site built with ReactJs, React-Router and  Sass",
+        "liveLink": "https://space-wheat.vercel.app/",
+        "githubLink": "https://github.com/Enx-dev/space"
+    },
+    {
+        "id":4,
+        "name":"Tip Spliter",
+        "description":"Ever wanted to split the bill and tip with friends or family? check this out.. built on ReactJs,Redux,and Sass",
+        "liveLink": "https://tip-splitter-red.vercel.app/",
+        "githubLink": "https://github.com/Enx-dev/Tip-splitter"
+    },
+    {
+        "id":5,
+        "name":"loop studio",
+        "description":"smooth looking landing page  built on ReactJs,Redux, Gsap, TailwindCss",
+        "liveLink": "https://loopstudio-eta.vercel.app/",
+        "githubLink": "https://github.com/Enx-dev/Loopstudio"
+    }
+]

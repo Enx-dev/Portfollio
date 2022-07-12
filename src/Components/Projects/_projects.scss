@@ -1,0 +1,35 @@
+.ProjectSection {
+  @apply min-h-screen flex flex-col items-center text-accentText py-20 px-5 md:px-10 lg:px-20 space-y-12;
+  &__title {
+    @apply text-6xl font-bold tracking-wider text-center uppercase;
+  }
+  &__cards {
+    @apply flex flex-wrap justify-center  gap-12;
+  }
+  .btn {
+    @apply justify-self-center;
+  }
+}
+.Cards {
+  @apply space-y-4 max-w-xs min-h-[350px] flex flex-col justify-between;
+  &__top {
+    img {
+      @apply rounded-t-lg h-40 w-full aspect-square;
+    }
+  }
+  &__bottom {
+    @apply space-y-3;
+    h1 {
+      @apply text-2xl font-semibold tracking-wide text-center;
+    }
+    p {
+      @apply text-center font-light;
+    }
+  }
+  &__btn {
+    @apply flex justify-around;
+    button {
+      @apply border-2 border-accentPrimary px-4 py-2 min-w-[150px] rounded-xl transition-colors duration-200 ease-in-out hover:bg-accentPrimary;
+    }
+  }
+}
